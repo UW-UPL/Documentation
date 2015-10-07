@@ -4,14 +4,14 @@ Documentation on running the UPL. Pull requests and the like are welcomed.
 
 
 Table of Contents:
-[Eris - The main server in the UPL](eris)
-[Siren – Naming / IP responsibilities](siren)
-[Spearow](spearow)
-[Chiptunes](chiptunes)
-[General Configuration](general-configuration)
-[Helpful installed packages](helpful-installed-packages)
-[Adding a User](adding-a-user)
-[Common Problems](common-problems)
+* [Eris - The main server in the UPL](eris)
+* [Siren - Naming / IP responsibilities](siren)
+* [Spearow - Apache webserver](spearow)
+* [Chiptunes - Music server](chiptunes)
+* [General Configuration](general-configuration)
+* [Helpful installed packages](helpful-installed-packages)
+* [Adding a User](adding-a-user)
+* [Common Problems](common-problems)
 
 
 
