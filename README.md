@@ -2,7 +2,6 @@
 Documentation on running the UPL. Pull requests and the like are welcomed. 
 
 
-
 Table of Contents:
 * [Eris - The main server in the UPL](#eris)
 * [Siren - Naming / IP responsibilities](#siren)
@@ -12,7 +11,7 @@ Table of Contents:
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
 * [Common Problems](#common-problems)
-
+* [TODO](#todo)
 
 
 ## Lab Overview:
@@ -131,3 +130,11 @@ Lists UPL servers and the services on them that perform tasks essential to runni
       * Waiting a few minutes, then trying again, or trying to open the file in nano is usually enough to “unstick it”, then you can run it as a python script again
     * Now you have to manually create the user’s home directory, this is EZ
       * Sudo mkhomedir_helper usernamehere
+
+
+# TODO
+- Nick is working on these.
+  - Refactor wording of this doc.
+  - Add NUAF.
+  - Once documentation is legit, create physical repo in the room.
+- Fix user websites not being served correctly.
