@@ -122,11 +122,11 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ## Common Problems:
 
-* KnowledgeBase
+### KnowledgeBase
   * I can’t sign in to the Spearow knowledgebase, or page editing gives an error.
     * Disk is out of space on Spearow, probably need to clear /var/log
 
-* Adding User
+### Adding User
   * When adding a user, I get an error from adduser.py saying a file reports “Resource unavailable”
     * I LITERALLY have no idea why this happens, but you must take additional measures to ensure the user is added and can log in.
       * At the end of running, adduser.py runs three other python files, you must now run them manually, ( sudo ./script_here.py) on eris
@@ -138,7 +138,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
     * Now you have to manually create the user’s home directory, this is EZ
       * Sudo mkhomedir_helper usernamehere
 
-* The music server is playing a song, but I can't hear it
+### The music server is playing a song, but I can't hear it
   * Did you make sure the cords are plugged in?
     * When the power goes out, the actual stereo in the server rack gets reset.
     * In order to reset, click the function button until you're on the 'aux' channel
