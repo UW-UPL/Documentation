@@ -10,6 +10,7 @@ Table of Contents:
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
+* [How to Startup the Servers](#startup-servers)
 * [Common Problems](#common-problems)
 * [TODO](#todo)
 
@@ -117,6 +118,24 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * Click on the "Mass Subscription".
   * Add users to the mailing list, one per line.
     * The options are "Subscribe", Send Welcome Message should be "Yes", Send Notifications of new subscriptions to the list owner should be "No".
+
+
+## Starting up servers
+Machines that need to be turned back on: 
+
+1. Eris (home folders)
+
+  *Sometimes need to hit enter for GRUB or F1 to boot. Plug in Monitor and Keyboard to check as you boot up.
+
+2. Siren (DHCP, so the computers know of each other and can talk to each other)
+
+    *Once booted, run: "sudo /etc/init.d/isc-dhcp-server start"
+    
+3. Spearow (web server for upl.cs.wisc.edu)
+
+    *Also sometimes need to hit F1 upon boot. After you are in, need to run the following command: "sudo /etc/init.d/apache2 start"
+    
+4. Nethack (some game servers, and mumble server)
 
 
 
