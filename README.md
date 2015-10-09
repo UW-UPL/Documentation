@@ -10,7 +10,7 @@ Table of Contents:
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
-* [How to Startup the Servers](#startup-servers)
+* [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
 * [TODO](#todo)
 
