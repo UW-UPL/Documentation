@@ -61,7 +61,13 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * The backend that actually plays music over the stereo
 * Ncmpcpp: the nice frontend
   * A frontend to mpd, its how we tell mpd what to play
-
+  * To add music:
+   * `cp` or `scp` album to the `/music` directory of `chiptunes`
+   * Open `ncmpcpp` and type `u` to update the collection
+   * __PLEASE ONLY PUT LEGAL COPIES ONTO CHIPTUNES!__
+   * If your addition did not register with `ncmpcpp`, try `chmod`ing it
+* Pianobar: Pandora internet radio music player
+  * Sign in with your Pandora account, and crank the tunes
 
 
 ## General Configuration
