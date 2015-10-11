@@ -44,11 +44,15 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 #### Naming / IP responsibilities
 * Bind9
   * DNS Server, basically allows us to use machine names instead of ip addresses
-*Isc_dhcp_server
+* Isc_dhcp_server
   * DHCP server, hands certain machines fixed ip addresses
     * We own a nice block of IPV4 IP addresses
   * Is really dumb and doesn’t always start right automatically
     * “hacky fix” in place for this, I ensure it is started with a line in /etc/rc.local on siren
+* Important Notes pertaining to CSL integration
+  * It is VERY important that our DNS server (in this case siren) always have the IP address `128.105.45.102`
+  * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run cs.wisc.edu)
+  * If a different IP is used, dns lookups all fail, and the UPL goes down for 8 hours during finals.
 
 ### Spearow
 #### Apache Webserver
@@ -121,23 +125,22 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 
 ## Starting up servers
-Machines that need to be turned back on: 
+Machines that need to be turned back on. They are listed **in order they should be started**: 
 
-1. Eris (home folders)
+1. Siren (DHCP, so the computers know of each other and can talk to each other)
+
+
+2. Eris (home folders)
 
   *Sometimes need to hit enter for GRUB or F1 to boot. Plug in Monitor and Keyboard to check as you boot up.
-
-2. Siren (DHCP, so the computers know of each other and can talk to each other)
-
-    *Once booted, run: "sudo /etc/init.d/isc-dhcp-server start"
     
 3. Spearow (web server for upl.cs.wisc.edu)
 
-    *Also sometimes need to hit F1 upon boot. After you are in, need to run the following command: "sudo /etc/init.d/apache2 start"
+    *Also sometimes need to hit F1 upon boot.
     
 4. Nethack (some game servers, and mumble server)
 
-
+5. Turn on all other machines
 
 ## Common Problems:
 
