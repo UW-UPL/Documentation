@@ -76,7 +76,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 
 ## General Configuration
-* Lives in ~upl/newconfig/files/cfmaster
+* Lives in ~upl/newconfig/cfmaster
   * Self explanatory, takes out actions on groups of machines (defined in cf.group)
   * Actions are defined in the other cf.* files
     * Cf.main is the most important one
