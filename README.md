@@ -12,7 +12,6 @@ Table of Contents:
 * [Adding a User](#adding-a-user)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
-* [TODO](#todo)
 
 
 ## Lab Overview:
@@ -164,10 +163,3 @@ Machines that need to be turned back on. They are listed **in order they should 
   * Did you make sure the cords are plugged in?
     * When the power goes out, the actual stereo in the server rack gets reset.
     * In order to reset, click the function button until you're on the 'aux' channel
-
-# TODO
-- Nick is working on these.
-  - Refactor wording of this doc.
-  - Add NUAF.
-  - Once documentation is legit, create physical repo in the room.
-- Fix user websites not being served correctly.
