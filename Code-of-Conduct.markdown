@@ -1,6 +1,22 @@
 # UPL Code of Conduct
+All visitors, members, and coordinators ("participants") of the UPL are required to agree with the following Code of Conduct. It is enforced by UPL coordinators ("coords"). We expect cooperation from everyone to ensure a safe environment.
 
 ## General Conduct
+(inspired by [The Hack Code of Conduct](http://hackcodeofconduct.org/))
+
+### The Quick Version
+The UPL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, or computing experience (or lack of any of the aforementioned). We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate. Participants violating these rules may be sanctioned or expelled from the UPL at the discretion of the coords and associated administrators.
+
+### The Long Version
+Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disturbance, inappropriate physical contact, and unwelcome sexual attention.
+
+Participants asked to stop any harassing behavior are expected to comply immediately.
+
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a coord immediately.
+
+If a participant engages in harassing behavior, coords and associated administrators may take any action they deem appropriate, including warning the offender or expulsion from the lab.
+
+We expect participants to follow these rules at UPL-related events.
 
 ## Account Policies
 The UPL was established for students to learn about computers.
