@@ -8,7 +8,28 @@ All visitors, members, and coordinators ("participants") of the UPL are required
 The UPL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, or computing experience (or lack of any of the aforementioned). We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate. Participants violating these rules may be sanctioned or expelled from the UPL at the discretion of the coords and associated administrators.
 
 ### The Long Version
-Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disturbance, inappropriate physical contact, and unwelcome sexual attention.
+Harassment includes offensive verbal comments related to:
+* Gender
+* Gender identity and expression
+* Age
+* Sexual orientation
+* Disability
+* Physical appearance
+* Body size
+* Race
+* Ethnicity
+* Nationality
+* Religion
+
+And also includes: 
+* Sexual images in public spaces
+* Deliberate intimidation
+* Stalking
+* Following
+* Photography or audio/video recording against reasonable consent
+* Sustained disturbance
+* Inappropriate physical contact
+* Unwelcome sexual attention.
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
