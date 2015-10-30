@@ -16,3 +16,7 @@ Violation of these rules may lead to your account being locked or deleted.
     Distasteful or offensive displays, printouts, or stored files are not permitted, and will be removed.
 4. Passing of copyrighted material to another ("pirating") is prohibited.
     If you have an interest in testing system security, or you want to use UPL resources in a way that may disrupt performance, please contact a coordinator to make appropriate arrangements.
+5. Other prohibited activities include:
+    * Cryptocurrency (e.g. Bitcoin) mining
+    * Rainbow table construction
+    * Unauthorized distributed computing programs or systems
