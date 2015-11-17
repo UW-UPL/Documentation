@@ -11,7 +11,7 @@
 ## WARNING!
 Due to CSL policy, the username that you use here must match the username that you have on other CSL instructional machines. If you do not already have a CSL account, please create one before filling out this form. Your CSL account is the account the department gives you when you enroll into a CS class. It is the username/password combination used to get into the other computer labs.
 
-#### CSL Login: ___ ___ ___ ___ ___ ___ ___ ___
+#### CSL Login: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
 
 ### Account Policy: TODO ADDING HERE
 
