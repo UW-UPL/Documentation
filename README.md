@@ -163,3 +163,7 @@ Machines that need to be turned back on. They are listed **in order they should 
   * Did you make sure the cords are plugged in?
     * When the power goes out, the actual stereo in the server rack gets reset.
     * In order to reset, click the function button until you're on the 'aux' channel
+
+### The internet doesn't work on a machine, even though it is plugged in correctly and connected to a network
+  * This may be an issue with Siren issuing IP addresses. This was noticed in 11/15.
+    * This was fixed by restarting Siren.
