@@ -53,6 +53,7 @@ Violation of these rules may lead to your account being locked or deleted.
     Distasteful or offensive displays, printouts, or stored files are not permitted, and will be removed.
 4. Passing of copyrighted material to another ("pirating") is prohibited.
     If you have an interest in testing system security, or you want to use UPL resources in a way that may disrupt performance, please contact a coordinator to make appropriate arrangements.
+5. Members may only be in the room when a UPL Coordinator is present. Should the last Coordinator present have to leave, the room must be closed, and all members currently in the room must leave.
 
 ## Other prohibited activities
   * Cryptocurrency (e.g. Bitcoin) mining
@@ -60,7 +61,7 @@ Violation of these rules may lead to your account being locked or deleted.
   * Unauthorized distributed computing programs or systems
   * Sleeping in the Lab
   * Breaking state or federal law
-  * Violating University Policy
+  * [Violating University Policy](http://pubs.wisc.edu/ug/index.htm)
 
 ## Additionally...
   * Please don't leave your belongings in the lab
@@ -68,7 +69,7 @@ Violation of these rules may lead to your account being locked or deleted.
     * Other people wish to use this space when you aren't present
     * Table space is hard to come by
   * **We observe all university policy and rules**
-    * If it isn't covered here, defer to University Policy. If it isn't covered by University Policy defer to **common sense**. If you're still unsure, just ask.
+    * If it isn't covered here, defer to University Policy. If it isn't covered by University Policy, just ask.
 
 ## Accountability Process
 In the event that a UPL Coordinator receives a report of a violation of the UPL Code of Conduct, the following process will be followed to address the concern:
