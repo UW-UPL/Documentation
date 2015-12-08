@@ -39,7 +39,7 @@ If a participant engages in harassing behavior, coords and associated administra
 
 We expect participants to follow these rules at UPL-related events.
 
-## Account Policies
+## Account / Member Policies
 The UPL was established for students to learn about computers.
 While we support exploration of the system, it is important to be considerate of the other users of the system and the security needs of the UPL.
 The following rules represent guidelines on appropriate and inappropriate behavior.
@@ -53,7 +53,30 @@ Violation of these rules may lead to your account being locked or deleted.
     Distasteful or offensive displays, printouts, or stored files are not permitted, and will be removed.
 4. Passing of copyrighted material to another ("pirating") is prohibited.
     If you have an interest in testing system security, or you want to use UPL resources in a way that may disrupt performance, please contact a coordinator to make appropriate arrangements.
-5. Other prohibited activities include:
-    * Cryptocurrency (e.g. Bitcoin) mining
-    * Rainbow table construction
-    * Unauthorized distributed computing programs or systems
+
+## Other prohibited activities
+  * Cryptocurrency (e.g. Bitcoin) mining
+  * Rainbow table construction
+  * Unauthorized distributed computing programs or systems
+  * Sleeping in the Lab
+  * Breaking state or federal law
+  * Violating University Policy
+
+## Additionally...
+  * Please don't leave your belongings in the lab
+    * We are not responsible for your belongings at any time
+    * Other people wish to use this space when you aren't present
+    * Table space is hard to come by
+  * **We observe all university policy and rules**
+    * If it isn't covered here, defer to University Policy. If it isn't covered by University Policy defer to **common sense**. If you're still unsure, just ask.
+
+## Accountability Process
+In the event that a UPL Coordinator receives a report of a violation of the UPL Code of Conduct, the following process will be followed to address the concern:
+
+1. The on site UPL Coordinator will address the concerns with the member and keep a record of the response of the member.
+2. If the immediate response from the UPL Coordinator does not register a positive outcome, or if problems with the member persist, the matter will be referred for review to a panel of 3 or more Coordinators and the current UPL Faculty Advisor to determine an appropriate response. The notice of action taken by the panel will be delivered to the member in writing with a copy kept on record. Possible responses include:
+  1. Restitution
+  2. Limiting UPL access to specific times
+  3. Removal of access to the UPL for a specified period of time
+  4. Expulsion from UPL access
+3. The member can appeal the decision by notifying a member of the panel within 7 calendar days of the notice of the decision. The appeal review will be based on the record of the decision made by the panel. The appeal will be heard by the current UPL Advisor.
