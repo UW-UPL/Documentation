@@ -10,6 +10,7 @@ Table of Contents:
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
+* [Adding a Coord](#adding-a-coord)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
 
@@ -121,6 +122,54 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * Click on the "Mass Subscription".
   * Add users to the mailing list, one per line.
     * The options are "Subscribe", Send Welcome Message should be "Yes", Send Notifications of new subscriptions to the list owner should be "No".
+
+## Adding a Coord
+There are instructions in ~upl/doc under AddingCoord.
+
+Most of the things that go into adding a new coord are done in
+postgres on bender.
+
+To make the nessasary change become root (sudo -s) on bender. And run 
+
+* psql upl 
+
+get the userid of the user you want to make a coord ( replace <user_login>)
+
+* SELECT  userid  FROM  user_account  WHERE  username = '<user_login>';
+
+this returns the <user_id>
+
+add them to the wheel and coord groups, some useful facts are:
+* select * from user_group where name in ('coord', 'wheel');
+ groupid |  gid  | name  | userid 
+ ---------+-------+-------+--------
+       2 | 10001 | coord |      1   
+      70 |    10 | wheel |      1   
+    
+
+* INSERT INTO user_group_user  ( groupid, userid ) VALUES ( 2, <user_id> );
+* INSERT INTO user_group_user  ( groupid, userid ) VALUES ( 70, <user_id> );
+
+
+now you need to give them the coord attribute
+
+again some useful bits of info
+* select * from user_attr_type;
+ attrid |   type   
+ --------+----------
+      1 | coord
+      2 | oldcoord
+      3 | locked
+      4 | friend
+
+
+* INSERT INTO user_attr ( attrid, userid ) VALUES ( 1, <user_id> );
+
+After these steps, exit the database (type "\q" without quotes and then hit enter), and (while root on bender), navigate to ~upl/bin and run export_groups.py. You need to be root for this to work, you can't use sudo. This will update the necessary files, and have them pushed out.
+
+Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
+
+Then have them meet with Bart, get an after-hour pass, and get an OD Key.
 
 
 ## Starting up servers
