@@ -127,9 +127,9 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 There are instructions in ~upl/doc under AddingCoord.
 
 Most of the things that go into adding a new coord are done in
-`postgres` on `bender`.
+`postgres` on `eris`.
 
-To make the nessasary change become root (`sudo -s`) on `bender`.
+To make the nessasary change become root (`sudo -s`) on `eris`.
 Now run:
 
 ```bash
@@ -181,7 +181,7 @@ select * from user_attr_type;
 INSERT INTO user_attr ( attrid, userid ) VALUES ( 1, <user_id> );
 ```
 
-After these steps, exit the database (type `\q` and then hit enter), and (while `root` on `bender`), navigate to `~upl/bin` and run `export_groups.py`. You need to be `root` for this to work, you can't just use sudo. This will update the necessary files, and have them pushed out.
+After these steps, exit the database (type `\q` and then hit enter), and (while `root` on `eris`), navigate to `~upl/bin` and run `export_groups.py`. You need to be `root` for this to work, you can't just use sudo. This will update the necessary files, and have them pushed out.
 
 Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
 
