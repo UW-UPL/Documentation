@@ -13,6 +13,7 @@ Table of Contents:
 * [Adding a Coord](#adding-a-coord)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
+* [Book Library](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
 
 
 ## Lab Overview:
