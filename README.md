@@ -74,6 +74,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
    * If your addition did not register with `ncmpcpp`, try `chmod`ing it
 * Pianobar: Pandora internet radio music player
   * Sign in with your Pandora account, and crank the tunes
+  * If you are getting the `TLS fingerprint mismatch` error, you need to [update your config file](https://github.com/PromyLOPh/pianobar/issues/560#issuecomment-161548123)
 
 
 ## General Configuration
