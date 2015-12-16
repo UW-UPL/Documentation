@@ -11,6 +11,7 @@ Table of Contents:
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
 * [Adding a Coord](#adding-a-coord)
+* [Removing a Coord](#removing-a-coord)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
 * [Book Library](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
@@ -188,6 +189,69 @@ After these steps, exit the database (type `\q` and then hit enter), and (while 
 Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
 
 ___Then have them meet with Bart, get an after-hour pass, and get an OD Key.___
+
+## Removing a Coord
+
+Most of the things that go into removing a new coord are done in
+`postgres` on `eris`.
+
+To make the nessasary change become root (`sudo -s`) on `eris`.
+Now run:
+
+```bash
+$ psql upl
+```
+
+Get the `userid` of the user you want to make a coord (replace `<user_login>`)
+
+```sql
+SELECT  userid  FROM  user_account  WHERE  username = '<user_login>';
+```
+
+This returns the `<user_id>`
+
+Remove them from the wheel and coord groups, some useful facts are:
+
+```sql
+select * from user_group where name in ('coord', 'wheel');
+```
+```
+ groupid |  gid  | name  | userid 
+ ---------+-------+-------+--------
+       2 | 10001 | coord |      1   
+      70 |    10 | wheel |      1  
+```
+
+Removing them is done as follows:
+
+```sql
+DELETE FROM user_group_user WHERE groupid='2' AND userid='<user_id>';
+DELETE FROM user_group_user WHERE groupid='70' AND userid='<user_id>';
+```
+
+Now you need to remove the coord attribute.
+
+Again, some useful bits of info:
+
+```sql
+select * from user_attr_type;
+```
+```
+ attrid |   type   
+ --------+----------
+      1 | coord
+      2 | oldcoord
+      3 | locked
+      4 | friend
+```
+
+```sql
+DELETE FROM user_attr WHERE attrid='1' AND userid='<user_id>';
+DELETE FROM user_attr WHERE attrid='2' AND userid='<user_id>';
+```
+
+After these steps, exit the database (type `\q` and then hit enter), and (while `root` on `eris`), navigate to `~upl/bin` and run `export_groups.py`. You need to be `root` for this to work, you can't just use sudo. This will update the necessary files, and have them pushed out.
+
 
 ## Starting up servers
 Machines that need to be turned back on. They are listed **in order they should be started**: 
