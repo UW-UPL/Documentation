@@ -59,8 +59,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 ### Spearow
 #### Apache Webserver
 * Serves the UPL Website / Knowledgebase
-* Should also serve websites people have set up in their ~username/Public folders, but this has been broken for a little while. 
-  * Might be a good first thing for someone to tackle and fix.
+* Should also serve websites people have set up in their ~username/Public folders
 
 ### Chiptunes
 #### Music server
