@@ -14,7 +14,7 @@ Table of Contents:
 * [Removing a Coord](#removing-a-coord)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
-* [Book Library](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
+* [Book Library](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing) (Opens a link to gdocs)
 
 
 ## Lab Overview:
