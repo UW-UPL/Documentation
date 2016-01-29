@@ -25,7 +25,7 @@ Due to CSL policy, the username that you use here must match the username that y
 ### How did you hear about us? _______________________________________________________________
 
 ### Mega-Important Legal-eeze:
-By signing this form, I, the undersigned, attest that I will read, and abide by the UPL policy sheet, found at http://www.upl.cs.wisc.edu/accountpolicy.html . I also attest that the above information is accurate and complete, to the best of my knowledge.
+By signing this form, I, the undersigned, attest that I have read, and abide by the UPL policy sheet, found at https://github.com/UW-UPL/Documentation/blob/master/Code-of-Conduct.markdown . I also attest that the above information is accurate and complete, to the best of my knowledge.
 
 #### Signature: ___________________________________________
 #### Date: ______ / ______ / ______ 
