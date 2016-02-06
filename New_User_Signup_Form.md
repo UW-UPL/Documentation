@@ -13,8 +13,6 @@ Due to CSL policy, the username that you use here must match the username that y
 
 #### CSL Login: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
 
-### Account Policy: TODO ADDING HERE
-
 ### Project / Interests: Please tell us a bit about what you plan to do here.
 :white_large_square: Internet of Things   :white_large_square: Virtual Reality   :white_large_square: Web   :white_large_square: Game Dev   :white_large_square: Security   :white_large_square: Hardware   :white_large_square: Competitions/CTFs/etc
 
@@ -33,7 +31,6 @@ By signing this form, I, the undersigned, attest that I have read, and abide by 
 ##### Once you present this form to a coordinator, if approved, your account will generally be added within 3 working days.
 
 ========================================
-#### Coordinator added by: ____________________________________________
-#### Date: ______ / ______ / ______
-
-
+#### Coordinator
+#### Added to DB By: ____________________________________________   Date: ______ / ______ / ______
+#### Added to Mailing List By: __________________________________   Date: ______ / ______ / ______
