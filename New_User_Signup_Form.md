@@ -32,5 +32,5 @@ By signing this form, I, the undersigned, attest that I have read, and abide by 
 
 ========================================
 #### Coordinator
-#### Added to DB By: __________________________________   Date: ______ / ______ / ______
+#### Added to DB By: _________________________________________   Date: ______ / ______ / ______
 #### Added to Mailing List By: __________________________________   Date: ______ / ______ / ______
