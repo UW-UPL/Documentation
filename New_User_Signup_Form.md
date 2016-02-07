@@ -19,7 +19,7 @@ Due to CSL policy, the username that you use here must match the username that y
 
 #### Others: _______________________________________________________________
 
-### How did you hear about us? _______________________________________________________________
+#### How did you hear about us? _______________________________
 
 ### Mega-Important Legal-eeze:
 By signing this form, I, the undersigned, attest that I have read, and abide by the UPL policy sheet, found at https://github.com/UW-UPL/Documentation/blob/master/Code-of-Conduct.markdown . I also attest that the above information is accurate and complete, to the best of my knowledge.
@@ -31,5 +31,5 @@ By signing this form, I, the undersigned, attest that I have read, and abide by 
 
 ========================================
 #### Coordinator
-#### Added to DB By: _________________________________________   Date: ______ / ______ / ______
-#### Added to Mailing List By: __________________________________   Date: ______ / ______ / ______
+#### Added to DB By: ____________________________________   Date: ______ / ______ / ______
+#### Added to Mailing List By: _____________________________   Date: ______ / ______ / ______
