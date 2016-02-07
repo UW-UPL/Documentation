@@ -75,7 +75,7 @@ Violation of these rules may lead to your account being locked or deleted.
 In the event that a UPL Coordinator receives a report of a violation of the UPL Code of Conduct, the following process will be followed to address the concern:
 
 1. The on site UPL Coordinator will address the concerns with the member and keep a record of the response of the member.
-2. If the immediate response from the UPL Coordinator does not register a positive outcome, or if problems with the member persist, the matter will be referred for review to a panel of 3 or more Coordinators and the current UPL Faculty Advisor to determine an appropriate response. The notice of action taken by the panel will be delivered to the member in writing with a copy kept on record. Possible responses include:
+2. If the immediate response from the UPL Coordinator does not register a positive outcome, or if problems with the member persist, the matter will be referred for review to a panel of 3 or more Coordinators and the current UPL Faculty Advisor to determine an appropriate response. The notice of action taken by the panel will be delivered to the member in writing with a copy kept on record. Possible responses include and are not limited to:
   1. Restitution
   2. Limiting UPL access to specific times
   3. Removal of access to the UPL for a specified period of time
