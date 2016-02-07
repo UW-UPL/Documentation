@@ -7,7 +7,7 @@ Table of Contents:
 * [Siren - Naming / IP responsibilities](#siren)
 * [Spearow - Apache webserver](#spearow)
 * [Chiptunes - Music server](#chiptunes)
-* [Pepade - Arcade Machine](#Pepade)
+* [Pepade - Arcade Machine](#pepade)
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
