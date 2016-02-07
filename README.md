@@ -7,6 +7,7 @@ Table of Contents:
 * [Siren - Naming / IP responsibilities](#siren)
 * [Spearow - Apache webserver](#spearow)
 * [Chiptunes - Music server](#chiptunes)
+* [Pepade - Arcade Machine](#Pepade)
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
@@ -76,6 +77,12 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * Sign in with your Pandora account, and crank the tunes
   * If you are getting the `TLS fingerprint mismatch` error, you need to [update your config file](https://github.com/PromyLOPh/pianobar/issues/560#issuecomment-161548123)
 
+### Pepade
+#### Arcade Machine
+* Now runs a distribution of Linux called Lakkos
+  * Developed explicitly for running retro games on emulators
+* So much more to come regarding configuration and use, while being a linux distribution, it abstracts away many of the more operating system like things
+  * Like a terminal...
 
 ## General Configuration
 * Lives in ~upl/newconfig/cfmaster
