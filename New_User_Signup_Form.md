@@ -16,7 +16,7 @@ Due to CSL policy, the username that you use here must match the username that y
 ### Project / Interests: Please tell us a bit about what you plan to do here.
 :white_large_square: Internet of Things   :white_large_square: Virtual Reality   :white_large_square: Web   :white_large_square: Game Dev   :white_large_square: Security   :white_large_square: Hardware   :white_large_square: Competitions/CTFs/etc
 
-:white_large_square: Compilers & PL   :white_large_square: Systems   :white_large_square: Math/Project Euler   :white_large_square: Software Engineering   :white_large_square: iOS Dev   :white_large_square: Android Dev
+:white_large_square: Compilers & PL   :white_large_square: Systems   :white_large_square: Math/Project Euler   :white_large_square: Software Engineering   :white_large_square: iOS Dev  Android Dev
 
 #### Others: _______________________________________________________________
 
