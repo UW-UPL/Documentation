@@ -296,3 +296,8 @@ Machines that need to be turned back on. They are listed **in order they should 
 ### The internet doesn't work on a machine, even though it is plugged in correctly and connected to a network
   * This may be an issue with Siren issuing IP addresses. This was noticed in 11/15, and after power failure in 12/15 as well
     * This was fixed by restarting Siren.
+
+### I need to print out new user forms, how do I do that?
+  * Make sure the [.md version](https://github.com/UW-UPL/Documentation/blob/master/New_User_Signup_Form.md) is up-to-date with the [pdf version](https://github.com/UW-UPL/Documentation/blob/master/New_User_Signup_Form.pdf).
+  * If you make changes on the .md of the NUF, run it through [this program](https://github.com/alanshaw/markdown-pdf) with the command `markdown-pdf --o PATH_WHERE_YOU_WANT_NEW_PDF_VERSION_TO_GO PATH_THAT_YOUR_MD_FILE_IS_ON_YOUR_COMPUTER`
+  * Then print the .pdf version.
