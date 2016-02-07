@@ -14,9 +14,9 @@ Due to CSL policy, the username that you use here must match the username that y
 #### CSL Login: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
 
 ### Interests (Circle All That Apply):
-Internet of Things _  |  _ Virtual Reality  _  |  _  Web  _  |  _  Game Dev  _  |  _  Security  _  |  _  Hardware  _  |  _  Competitions/CTFs/etc
+|_ Internet of Things _  |  _ Virtual Reality  _  |  _  Game Dev  _  |  _  Security  _  |  _  Hardware  _  |  _  Competitions/CTFs/etc _|
 
-Compilers & PL  _  |  _  Systems  _  |  _  Math/Project Euler  _  |  _  Software Engineering  _  |  _  iOS Dev  _  |  _  Android Dev
+|_ Compilers/PL  _  |  _  Systems  _  |  _  Math/Project Euler  _  |  _  Software Engineering  _  |  _  iOS Dev  _  |  _  Android _ | _ Web _|
 
 #### Others: _______________________________________________________________
 
