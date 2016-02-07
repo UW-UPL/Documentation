@@ -3,7 +3,7 @@
 ## User Information:
 ### Last Name: ____________________   First Name: ____________________
 ### Phone: (____) ____ - ________
-### Do you have a CS account (Circle One)? Yes   No 
+### Do you have a CS account (Circle One)? Yes  _ | _  No 
 ### Preferred Email Address: _________________________________________
 ### UW ID Number: ___ ___ ___ - ___ ___ ___ - ___ ___ ___ ___ 
 ### Year in school: ____________________   Major: ____________________
