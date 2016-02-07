@@ -1,4 +1,4 @@
-# UPL New User Account Form v3.03
+# UPL New User Account Form v3.04
 
 ### Last Name: ____________________   First Name: ____________________
 ### Phone: (____) ____ - ________
@@ -27,9 +27,9 @@ By signing this form, I, the undersigned, attest that I have read, and abide by 
 #### Signature: ___________________________________________
 #### Date: ______ / ______ / ______ 
 
-##### Once you present this form to a coordinator, if approved, your account will generally be added within 3 working days.
+##### Present this form to a coordinator, if approved, your account will generally be added within 3 working days.
 
 ========================================
-#### Coordinator
+#### Coordinator Section
 #### Added to DB By: ____________________________________   Date: ______ / ______ / ______
 #### Added to Mailing List By: _____________________________   Date: ______ / ______ / ______
