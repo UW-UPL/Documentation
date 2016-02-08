@@ -56,6 +56,8 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * It is VERY important that our DNS server (in this case siren) always have the IP address `128.105.45.102`
   * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run cs.wisc.edu)
   * If a different IP is used, dns lookups all fail, and the UPL goes down for 8 hours during finals.
+* To change a machine's hostname, edit /etc/bind/pri/128.105.45.rev with the appropriate host.
+  **Note that this requires a DHCP change as well, as DHCP looks up a computer's MAC addr and assigns it an IP address accordingly. This can be found in /etc/dhcp/dhcpd.conf. BACK THESE UP BEFORE CHANGING THEM!**
 
 ### Spearow
 #### Apache Webserver
