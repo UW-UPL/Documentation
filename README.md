@@ -307,4 +307,4 @@ Machines that need to be turned back on. They are listed **in order they should 
     * This was fixed by restarting Siren.
 
 ### I need to print out new user forms, how do I do that?
-  * Check the [New User Form folder README](https://github.com/UW-UPL/Documentation/blob/master/New%20User%20Form/README.md)
+  * Check the [New User Form folder README](https://github.com/UW-UPL/Documentation/blob/master/New%20User%20Form)
