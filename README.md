@@ -45,10 +45,10 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ### Siren
 #### Naming / IP responsibilities
-* Bind9
-  * DNS Server, basically allows us to use machine names instead of ip addresses
-* Isc_dhcp_server
-  * DHCP server, hands certain machines fixed ip addresses
+* bind9
+  * DNS Service, basically allows us to use machine names instead of ip addresses
+* isc-dhcp-server
+  * DHCP service, hands certain machines fixed ip addresses
     * We own a nice block of IPV4 IP addresses
   * Is really dumb and doesn’t always start right automatically
     * “hacky fix” in place for this, I ensure it is started with a line in /etc/rc.local on siren
