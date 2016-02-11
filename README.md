@@ -47,16 +47,17 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 #### Naming / IP responsibilities
 * bind9
   * DNS Service, basically allows us to use machine names instead of ip addresses
+  * Config must be changed via cfengine at `~upl/newconfig/files/BindServer/bind/pri/upl.zone`! 
 * isc-dhcp-server
   * DHCP service, hands certain machines fixed ip addresses
-    * We own a nice block of IPV4 IP addresses
+    * We own a nice Class C block of IPV4 IP addresses (`128.105.45.0/32`)
   * Is really dumb and doesn’t always start right automatically
     * “hacky fix” in place for this, I ensure it is started with a line in /etc/rc.local on siren
 * Important Notes pertaining to CSL integration
   * It is VERY important that our DNS server (in this case siren) always have the IP address `128.105.45.102`
   * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run cs.wisc.edu)
   * If a different IP is used, dns lookups all fail, and the UPL goes down for 8 hours during finals.
-* To change a machine's hostname, edit /etc/bind/pri/128.105.45.rev with the appropriate host.
+* To change a machine's hostname, edit `~upl/newconfig/files/BindServer/bind/pri/upl.zone` with the appropriate host.
   **Note that this requires a DHCP change as well, as DHCP looks up a computer's MAC addr and assigns it an IP address accordingly. This can be found in /etc/dhcp/dhcpd.conf. BACK THESE UP BEFORE CHANGING THEM!**
 
 ### Spearow
