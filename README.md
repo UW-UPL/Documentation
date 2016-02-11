@@ -3,11 +3,12 @@ Documentation on running the UPL. Pull requests and the like are welcomed.
 
 
 Table of Contents:
-* [Eris - The main server in the UPL](#eris)
-* [Siren - Naming / IP responsibilities](#siren)
-* [Spearow - Apache webserver](#spearow)
-* [Chiptunes - Music server](#chiptunes)
-* [Pepade - Arcade Machine](#pepade)
+* [Lab Overview](#lab-overview)
+  * [Eris - The main server in the UPL](#eris)
+  * [Siren - Naming / IP responsibilities](#siren)
+  * [Spearow - Apache webserver](#spearow)
+  * [Chiptunes - Music server](#chiptunes)
+  * [Pepade - Arcade Machine](#pepade)
 * [General Configuration](#general-configuration)
 * [Helpful installed packages](#helpful-installed-packages)
 * [Adding a User](#adding-a-user)
@@ -15,7 +16,7 @@ Table of Contents:
 * [Removing a Coord](#removing-a-coord)
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
-* [Book Library](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing) (Opens a link to gdocs)
+* [Book Library](book-library)
 
 
 ## Lab Overview:
@@ -309,3 +310,8 @@ Machines that need to be turned back on. They are listed **in order they should 
 
 ### I need to print out new user forms, how do I do that?
   * Check the [New User Form folder README](https://github.com/UW-UPL/Documentation/blob/master/New%20User%20Form)
+
+## Book Library
+* [Link to the live gdoc](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
+* [Printable empty loan sheet](upl-book-loan-sheet.pdf)
+* [Open Office accessible loan sheet doc](upl-book-loan-sheet.ods)
