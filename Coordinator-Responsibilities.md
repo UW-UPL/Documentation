@@ -2,7 +2,7 @@
 
 ## Coordinator Responsibilities
 
-Each coordinator will:
+Each coordinator will agree to:
 
 1. Have a door code. Without a door code, one is not a coordinator.
 2. Be responsible for the lab when they're in it.
