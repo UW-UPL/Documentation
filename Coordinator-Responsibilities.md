@@ -1,7 +1,5 @@
 # UPL Coordinator Responsibilities
 
-## Coordinator Responsibilities
-
 Each coordinator will agree to:
 
 1. Have a door code. Without a door code, one is not a coordinator.
