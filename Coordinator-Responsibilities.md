@@ -1,4 +1,4 @@
-# Undergraduate Projects Lab Coordinator Responsibilities
+# UPL Coordinator Responsibilities
 
 ## Coordinator Responsibilities
 
