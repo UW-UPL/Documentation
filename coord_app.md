@@ -29,7 +29,5 @@ Your answers should be a few sentences long. Lists are also acceptable.
 
 ## Final Points
 
-`TODO`: link to the Coord Responsibilities document
-
-1. Read the Coord Responsibilities document. Do you agree to follow the criteria listed therein?
+1. Read the [Coord Responsibilities](https://github.com/UW-UPL/Documentation/blob/master/Coordinator-Responsibilities.md) document. Do you agree to follow the criteria listed therein?
 2. Are you availble to attend meetings that may fall on weekends or weeknights?
