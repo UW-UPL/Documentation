@@ -74,6 +74,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * A frontend to mpd, its how we tell mpd what to play
   * To add music:
    * `cp` or `scp` album to the `/music` directory of `chiptunes`
+   * If it isn't already, the permissions flags should be `755` for the new folder
    * Open `ncmpcpp` and type `u` to update the collection
    * __PLEASE ONLY PUT LEGAL COPIES ONTO CHIPTUNES!__
    * If your addition did not register with `ncmpcpp`, try `chmod`ing it
