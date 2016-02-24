@@ -46,14 +46,13 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ### Siren
 #### Naming / IP responsibilities
-* bind9
+* bind9 (transitioning to docker-bind9)
   * DNS Service, basically allows us to use machine names instead of ip addresses
   * Config must be changed via cfengine at `~upl/newconfig/files/BindServer/bind/pri/upl.zone`! 
-* isc-dhcp-server
+* docker-dhcp
   * DHCP service, hands certain machines fixed ip addresses
     * We own a nice Class C block of IPV4 IP addresses (`128.105.45.0/32`)
-  * Is really dumb and doesn’t always start right automatically
-    * “hacky fix” in place for this, I ensure it is started with a line in /etc/rc.local on siren
+  * Run by `docker` automatically on boot! Adding documentation here shortly on how to work with this.
 * Important Notes pertaining to CSL integration
   * It is VERY important that our DNS server (in this case siren) always have the IP address `128.105.45.102`
   * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run cs.wisc.edu)
