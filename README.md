@@ -120,7 +120,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 ## Adding a User
 1. Have the user sign up sheet handy
 2. Ensure that they have a CSL account (if not, send e-mail to lab?)
-3. Run `sudo bash upl-admin`, and follow the prompts
+3. Run `sudo upl-admin`, and follow the prompts
 4. Log into the [CSL authenticated web pages](https://www-auth.cs.wisc.edu/forms/) as user `upluse` and add the UPL bit there. (It will claim it failed, but it's not true) you should have the password, if not, start by obtaining it.
 5. Add the user to the upl-users mailing list. You should have the password. If not, start by obtaining it
   * [Go to the cs mailman](https://lists.cs.wisc.edu/mailman/admin/upl-users)
@@ -132,7 +132,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ## Adding a Coord
 
-Similarly, run `sudo bash upl-admin`, and follow the prompts.
+Similarly, run `sudo upl-admin`, and follow the prompts.
 
 Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
 
@@ -140,7 +140,7 @@ ___Then have them meet with Bart, get an after-hour pass, and get an OD Key.___
 
 ## Removing a Coord
 
-Run `sudo bash upl-admin`, and follow the prompts.
+Run `sudo upl-admin`, and follow the prompts.
 
 ## Starting up servers
 Machines that need to be turned back on. They are listed **in order they should be started**: 
