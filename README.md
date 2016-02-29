@@ -30,8 +30,6 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * /home
 * Home directory backups as well
   * In /home_backup
-* Postgres Database of Users / their status as member, coord, etc
-  * Python scripts use this to generate needed files for linux functionality
 * AFS Connection
   * Mounts a network drive of the CSL lab so we an read out valid CS users. 
 * Webcam
@@ -83,8 +81,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ### Pepade
 #### Arcade Machine
-* Now runs a distribution of Linux called Lakkos
-  * Developed explicitly for running retro games on emulators
+* Runs Ubuntu with an emulator wrapper (RetroArch)
 * So much more to come regarding configuration and use, while being a linux distribution, it abstracts away many of the more operating system like things
   * Like a terminal...
 
@@ -121,14 +118,11 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 
 ## Adding a User
-1. Have the user sign up sheet handy (We should put that up here...)
-2. Ensure that they have a CSL account(if not, send e-mail to lab?)
-3. Log onto eris and become root 'su'
-4. Navigate to ~upl/bin
-5. Run adduser.py
-6. Follow the prompts. Be careful, the script doesn't handle bad input well
-7. Log into the [CSL authenticated web pages](https://www-auth.cs.wisc.edu/forms/) as user `upluse` and add the UPL bit there. (It will claim it failed, but it's not true) you should have the password, if not, start by obtaining it.
-8. Add the user to the upl-users mailing list. You should have the password. If not, start by obtaining it
+1. Have the user sign up sheet handy
+2. Ensure that they have a CSL account (if not, send e-mail to lab?)
+3. Run `sudo bash upl-admin`, and follow the prompts
+4. Log into the [CSL authenticated web pages](https://www-auth.cs.wisc.edu/forms/) as user `upluse` and add the UPL bit there. (It will claim it failed, but it's not true) you should have the password, if not, start by obtaining it.
+5. Add the user to the upl-users mailing list. You should have the password. If not, start by obtaining it
   * [Go to the cs mailman](https://lists.cs.wisc.edu/mailman/admin/upl-users)
   * Access the "admin interface". Login.
   * Open up the "Membership Management".
@@ -137,64 +131,8 @@ Lists UPL servers and the services on them that perform tasks essential to runni
     * The options are "Subscribe", Send Welcome Message should be "Yes", Send Notifications of new subscriptions to the list owner should be "No".
 
 ## Adding a Coord
-There are instructions in ~upl/doc under AddingCoord.
 
-Most of the things that go into adding a new coord are done in
-`postgres` on `eris`.
-
-To make the nessasary change become root (`sudo -s`) on `eris`.
-Now run:
-
-```bash
-$ psql upl
-```
-
-Get the `userid` of the user you want to make a coord (replace `<user_login>`)
-
-```sql
-SELECT  userid  FROM  user_account  WHERE  username = '<user_login>';
-```
-
-This returns the `<user_id>`
-
-Add them to the wheel and coord groups, some useful facts are:
-
-```sql
-select * from user_group where name in ('coord', 'wheel');
-```
-```
- groupid |  gid  | name  | userid 
- ---------+-------+-------+--------
-       2 | 10001 | coord |      1   
-      70 |    10 | wheel |      1  
-```
-
-```sql
-INSERT INTO user_group_user  ( groupid, userid ) VALUES ( 2, <user_id> );
-INSERT INTO user_group_user  ( groupid, userid ) VALUES ( 70, <user_id> );
-```
-
-Now you need to give them the coord attribute.
-
-Again, some useful bits of info:
-
-```sql
-select * from user_attr_type;
-```
-```
- attrid |   type   
- --------+----------
-      1 | coord
-      2 | oldcoord
-      3 | locked
-      4 | friend
-```
-
-```sql
-INSERT INTO user_attr ( attrid, userid ) VALUES ( 1, <user_id> );
-```
-
-After these steps, exit the database (type `\q` and then hit enter), and (while `root` on `eris`), navigate to `~upl/bin` and run `export_groups.py`. You need to be `root` for this to work, you can't just use sudo. This will update the necessary files, and have them pushed out.
+Similarly, run `sudo bash upl-admin`, and follow the prompts.
 
 Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
 
@@ -202,66 +140,7 @@ ___Then have them meet with Bart, get an after-hour pass, and get an OD Key.___
 
 ## Removing a Coord
 
-Most of the things that go into removing a new coord are done in
-`postgres` on `eris`.
-
-To make the nessasary change become root (`sudo -s`) on `eris`.
-Now run:
-
-```bash
-$ psql upl
-```
-
-Get the `userid` of the user you want to make a coord (replace `<user_login>`)
-
-```sql
-SELECT  userid  FROM  user_account  WHERE  username = '<user_login>';
-```
-
-This returns the `<user_id>`
-
-Remove them from the wheel and coord groups, some useful facts are:
-
-```sql
-select * from user_group where name in ('coord', 'wheel');
-```
-```
- groupid |  gid  | name  | userid 
- ---------+-------+-------+--------
-       2 | 10001 | coord |      1   
-      70 |    10 | wheel |      1  
-```
-
-Removing them is done as follows:
-
-```sql
-DELETE FROM user_group_user WHERE groupid='2' AND userid='<user_id>';
-DELETE FROM user_group_user WHERE groupid='70' AND userid='<user_id>';
-```
-
-Now you need to remove the coord attribute.
-
-Again, some useful bits of info:
-
-```sql
-select * from user_attr_type;
-```
-```
- attrid |   type   
- --------+----------
-      1 | coord
-      2 | oldcoord
-      3 | locked
-      4 | friend
-```
-
-```sql
-DELETE FROM user_attr WHERE attrid='1' AND userid='<user_id>';
-DELETE FROM user_attr WHERE attrid='2' AND userid='<user_id>';
-```
-
-After these steps, exit the database (type `\q` and then hit enter), and (while `root` on `eris`), navigate to `~upl/bin` and run `export_groups.py`. You need to be `root` for this to work, you can't just use sudo. This will update the necessary files, and have them pushed out.
-
+Run `sudo bash upl-admin`, and follow the prompts.
 
 ## Starting up servers
 Machines that need to be turned back on. They are listed **in order they should be started**: 
@@ -288,16 +167,6 @@ Machines that need to be turned back on. They are listed **in order they should 
     * Disk is out of space on Spearow, probably need to clear /var/log
 
 ### Adding User
-  * When adding a user, I get an error from adduser.py saying a file reports “Resource unavailable”
-    * I LITERALLY have no idea why this happens, but you must take additional measures to ensure the user is added and can log in.
-      * At the end of running, adduser.py runs three other python files, you must now run them manually, ( sudo ./script_here.py) on eris
-        * Export_group.py	- takes care of user groups
-        * Export_passwd.py 	- exports passwd file (for linux login)
-        * Install_passwd.py 	- puts passwd file in correct place for login
-      * If any of the three scripts failed, I think it means that file is locked by something. If you’re more linuxy than I am, there are things that can be done to see what is locking a file.
-      * Waiting a few minutes, then trying again, or trying to open the file in nano is usually enough to “unstick it”, then you can run it as a python script again
-    * Now you have to manually create the user’s home directory, this is EZ
-      * Sudo mkhomedir_helper usernamehere
 
 ### The music server is playing a song, but I can't hear it
   * Did you make sure the cords are plugged in?
