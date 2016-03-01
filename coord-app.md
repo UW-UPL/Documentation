@@ -23,7 +23,7 @@ Your answers should be a few sentences long. Lists are also acceptable.
 2. How many hours do you spend in the UPL each week?
 3. What are your technical interests?
 4. What are your non-technical interests?
-5. How comfortable are you with working in a terminal?
+5. How comfortable are you with working in a terminal? (No experience is OK!)
 6. Why do you want to be a coord?
 7. What do you have to offer the UPL?
 8. What would you improve in the UPL?
