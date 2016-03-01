@@ -3,6 +3,8 @@
 __NOTE__: Please type up your responses and email them to the `upl-coords` address.
 Your application will be seen only by UPL coords.
 
+:exclamation: Please copy the questions with your answers!
+
 ## Basic Information
 
 1. First/preferred name
