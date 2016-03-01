@@ -83,11 +83,11 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 #### Arcade Machine
 * Runs Ubuntu with an emulator wrapper (RetroArch)
 * To add a game:
-* Download your favorite ROM and unzip in terminal using `unzip` <ROM>
-* Move the unziped ROM to the `games` directory and in the correct directory (eg. N64)(you can use the visual file explorer to do this)
-* Open up the `RetroArch` and scan the directory where you put the unziped ROM
-* Go to the emulator for that ROM and it should now be in that list.
-* If not in list, go to `load content` in the main menu of `RetroArch` and load the ROM from its directory 
+ * Download your favorite ROM and unzip in terminal using `unzip` <ROM>
+ * Move the unziped ROM to the `games` directory and in the correct directory (eg. N64)(you can use the visual file explorer to do this)
+ * Open up the `RetroArch` and scan the directory where you put the unziped ROM
+ * Go to the emulator for that ROM and it should now be in that list.
+ * If not in list, go to `load content` in the main menu of `RetroArch` and load the ROM from its directory 
 
 ## General Configuration
 * Lives in ~upl/newconfig/cfmaster
