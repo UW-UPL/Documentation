@@ -192,5 +192,15 @@ Machines that need to be turned back on. They are listed **in order they should 
 
 ## `man upl`
 
+__"READ THE MANPAGE!"__
+
 This is a user-contributed `man` page for new UPL users to become better acquainted with the lab and its facilities.
 Please see the directory `man-upl` for content and the `man` page generation script.
+
+To generate (or update) the `upl` manpage entry, just run:
+
+```bash
+$ bash generate-upl-manpage.sh
+```
+
+If you are interested in contributing to the effort or have input, please let us know by speaking with a coord or filing an issue on [GitHub](https://github.com/UW-UPL/Documentation).
