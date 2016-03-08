@@ -35,4 +35,3 @@ We (UPL members and coords) expect you to follow these rules and help keep the l
 ### Oculus
 
 _Generated_
-<!-- append date here -->
