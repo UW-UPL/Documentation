@@ -17,6 +17,7 @@ Table of Contents:
 * [How to Startup the Servers](#starting-up-servers)
 * [Common Problems](#common-problems)
 * [Book Library](#book-library)
+* [`man upl`](#man-upl)
 
 
 ## Lab Overview:
@@ -188,3 +189,8 @@ Machines that need to be turned back on. They are listed **in order they should 
 * [Link to the live gdoc](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
 * [Printable empty loan sheet](upl-book-loan-sheet.pdf)
 * [Open Office accessible loan sheet doc](upl-book-loan-sheet.ods)
+
+## `man upl`
+
+This is a user-contributed `man` page for new UPL users to become better acquainted with the lab and its facilities.
+Please see the directory `man-upl` for content and the `man` page generation script.
