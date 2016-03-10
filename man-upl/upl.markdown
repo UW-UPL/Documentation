@@ -1,5 +1,3 @@
-# Undergraduate Projects Lab (UPL)
-
 Welcome to the UPL!
 This `man` page will help become better acquainted with the UPL and its facilities.
 
@@ -33,5 +31,3 @@ We (UPL members and coords) expect you to follow these rules and help keep the l
 ### Hardware Table
 
 ### Oculus
-
-_Generated_
