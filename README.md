@@ -47,17 +47,17 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 #### Naming / IP responsibilities
 * bind9 (transitioning to docker-bind9)
   * DNS Service, basically allows us to use machine names instead of ip addresses
-  * Config must be changed via cfengine at `~upl/newconfig/files/BindServer/bind/pri/upl.zone`! 
+  * Config must be changed via Docker image at `/srv/maintain/UPL-Config/docker/bind9`! 
 * docker-dhcp
   * DHCP service, hands certain machines fixed ip addresses
-    * We own a nice Class C block of IPV4 IP addresses (`128.105.45.0/32`)
-  * Run by `docker` automatically on boot! Adding documentation here shortly on how to work with this.
+    * We own a nice Class C block of IPV4 IP addresses (`128.105.45.0/32`, to be exact)
+  * Run by `docker` automatically on boot! Configuration files are found at `/srv/maintain/UPL-Config/docker/dhcp` 
 * Important Notes pertaining to CSL integration
-  * It is VERY important that our DNS server (in this case siren) always have the IP address `128.105.45.102`
-  * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run cs.wisc.edu)
+  * It is VERY important that our DNS server (Currently `siren`) always have the IP address `128.105.45.102`
+  * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run *.cs.wisc.edu)
   * If a different IP is used, dns lookups all fail, and the UPL goes down for 8 hours during finals.
-* To change a machine's hostname, edit `~upl/newconfig/files/BindServer/bind/pri/upl.zone` with the appropriate host.
-  **Note that this requires a DHCP change as well, as DHCP looks up a computer's MAC addr and assigns it an IP address accordingly. This can be found in /etc/dhcp/dhcpd.conf. BACK THESE UP BEFORE CHANGING THEM!**
+* To change a machine's hostname, edit `/srv/maintain/UPL-Config/docker/bind9/data/bind/etc/pri` with the appropriate host.
+  **Note that this requires a DHCP change as well, as DHCP looks up a computer's MAC addr and assigns it an IP address accordingly. This can be found in /srv/maintain/UPL-Config/docker/dhcp/data/dhcpd.conf. BACK THESE UP BEFORE CHANGING THEM!**
 
 ### Spearow
 #### Apache Webserver
