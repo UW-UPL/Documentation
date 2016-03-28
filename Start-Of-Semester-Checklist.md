@@ -1,5 +1,3 @@
-:warning: _In progress_ :warning:
-
 # Beginning of Semester Checklist for Coords
 
 - Notify Bart of changing coords
@@ -9,4 +7,8 @@
   - Special events
   - Issues and blockages
   - Who still needs to do their "one event" - by name
+  - Resolve any outstanding GitHub issues
 - Reclaim all books from library loans, start new loan sheet
+- Clean the lab (including refrigerator)
+- Add any outstanding signup (new user) forms
+- Get new supplies
