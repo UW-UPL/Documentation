@@ -12,3 +12,7 @@
 - Clean the lab (including refrigerator)
 - Add any outstanding signup (new user) forms
 - Get new supplies
+- Check door card-reader status
+  - Green blink(s) :arrow_right: :thumbsup:
+  - 9 Red blinks :arrow_right: :battery: needs to be replaced
+  - Default :arrow_right: let Bart know
