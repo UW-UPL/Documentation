@@ -11,8 +11,15 @@
 - Reclaim all books from library loans, start new loan sheet
 - Clean the lab (including refrigerator)
 - Add any outstanding signup (new user) forms
+- Print new signup forms if necessary
 - Get new supplies
 - Check door card-reader status
   - Green blink(s) :arrow_right: :thumbsup:
   - 9 Red blinks :arrow_right: :battery: needs to be replaced
   - Default :arrow_right: let Bart know
+- If it's the fall semester:
+  - __New User Night__ needs to be finalized ASAP
+  - Spread the word (via email lists)
+  - Visit classes
+  - Work with other CS groups (e.g. SACM)
+  - See [this repo](https://github.com/UW-UPL/fall_2016_kickoff) and its issues for ideas
