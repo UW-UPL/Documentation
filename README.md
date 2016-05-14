@@ -188,6 +188,10 @@ Machines that need to be turned back on. They are listed **in order they should 
 ### I need to print out new user forms, how do I do that?
   * Check the [New User Form folder README](https://github.com/UW-UPL/Documentation/blob/master/New%20User%20Form)
 
+### I can't `ssh` into the UPL!
+  * If you get a "man-in-the-middle" warning, this can be easily fixed. The data in your `~/.ssh/known_hosts` file has likely been corrupted or outdated. Simply [remove the offending data](http://www.thegeekstuff.com/2010/04/how-to-fix-offending-key-in-sshknown_hosts-file/) (line number given by the error output) and you should be good.
+  * If the above tactic does not work, please contact a coord and/or file an issue in this repo.
+
 ## Book Library
 * [Link to the live gdoc](https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit?usp=sharing)
 * [Printable empty loan sheet](upl-book-loan-sheet.pdf)
