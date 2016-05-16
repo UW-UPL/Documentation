@@ -79,6 +79,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 * Pianobar: Pandora internet radio music player
   * Sign in with your Pandora account, and crank the tunes
   * If you are getting the `TLS fingerprint mismatch` error, you need to [update your config file](https://github.com/PromyLOPh/pianobar/issues/560#issuecomment-161548123)
+  * A script has been made to automatically do this for you. While logged into chiptunes run fix-pianobar.
 * Mopidy: Spotify (and others) music player (__experimental__)
   * Run `mopidy`.
   * If you have not set up your configuration, do so [here](https://docs.mopidy.com/en/latest/config/).
