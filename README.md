@@ -95,6 +95,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
  * If not in list, go to `load content` in the main menu of `RetroArch` and load the ROM from its directory 
 
 ## General Configuration
+* Library google doc: https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit#gid=0
 * Lives in ~upl/newconfig/cfmaster
   * Self explanatory, takes out actions on groups of machines (defined in cf.group)
   * Actions are defined in the other cf.* files
