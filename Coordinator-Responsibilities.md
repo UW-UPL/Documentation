@@ -3,7 +3,7 @@
 Each coordinator will agree to:
 
 0. Be a UW-Madison registered student. Graduate or Undergraduate, full or part time. If you stop being a registered student suddenly, you MUST relinquish your coordinator status, as per Bart Miller. 
-1. Have a door code. Without a door code, one is not a coordinator.
+1. Have WisCard door access (a CURRENT coord must ask Bart for this. It requires the number on the back of the WisCard). Without access, one is not a coordinator.
 2. Be responsible for the lab when they're in it.
 3. Attend every coordinator meeting possible.
 4. Try their best to enforce the code of conduct.
