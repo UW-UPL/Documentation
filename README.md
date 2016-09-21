@@ -66,23 +66,24 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ### Chiptunes
 #### Music server
-* Mpd: music player daemon
-  * The backend that actually plays music over the stereo
+* Mopidy: An HTTP and MPD server.
+  * Basically the backend host for playing music, requires a frontend client.
+  * Clients may be HTTP in nature, or may be any old MPD client.
+  * HTTP on port 6680, MPD on 6600
 * Ncmpcpp: the nice frontend
-  * A frontend to mpd, its how we tell mpd what to play
+  * SSH into chiptunes, run `ncmpcpp` and hit `1` for instructions.
+  * A frontend to mopidy, its how we tell mopidy what to play
   * To add music:
    * `cp` or `scp` album to the `/music` directory of `chiptunes`
    * If it isn't already, the permissions flags should be `755` for the new folder
-   * Open `ncmpcpp` and type `u` to update the collection
+   * Have a coord run `sudo mopidyctl local scan` and wait
+   * Run `curl -d '{"jsonrpc": "2.0", "id": 1, "method": "core.library.refresh"}' http://localhost:6680/mopidy/rpc` to update for http clients
    * __PLEASE ONLY PUT LEGAL COPIES ONTO CHIPTUNES!__
    * If your addition did not register with `ncmpcpp`, try `chmod`ing it
 * Pianobar: Pandora internet radio music player
   * Sign in with your Pandora account, and crank the tunes
   * If you are getting the `TLS fingerprint mismatch` error, you need to [update your config file](https://github.com/PromyLOPh/pianobar/issues/560#issuecomment-161548123)
   * A script has been made to automatically do this for you. While logged into chiptunes run fix-pianobar.
-* Mopidy: Spotify (and others) music player (__experimental__)
-  * Run `mopidy`.
-  * If you have not set up your configuration, do so [here](https://docs.mopidy.com/en/latest/config/).
 
 ### Pepade
 #### Arcade Machine
