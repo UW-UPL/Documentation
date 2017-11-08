@@ -67,17 +67,17 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 ### Chiptunes
 #### Music server
 * Mopidy: An HTTP and MPD server.
-  * Basically the backend host for playing music, requires a frontend client.
+  * The backend host for playing music, requires a frontend client.
   * Clients may be HTTP in nature, or may be any old MPD client.
   * HTTP on port 6680, MPD on 6600
 * Ncmpcpp: the nice frontend
   * SSH into chiptunes, run `ncmpcpp` and hit `1` for instructions.
   * A frontend to mopidy, its how we tell mopidy what to play
-  * To add music:
-   * `cp` or `scp` album to the `/music` directory of `chiptunes`
-   * If it isn't already, the permissions flags should be `755` for the new folder
-   * Have a coord run `sudo mopidyctl local scan` and wait
-   * Run `curl -d '{"jsonrpc": "2.0", "id": 1, "method": "core.library.refresh"}' http://localhost:6680/mopidy/rpc` to update for http clients
+  * To add music (MUST BE A COORDINATOR):
+   * Get the music onto the UPL filesystem
+   * `cp` the music to the `/music` directory of `chiptunes`
+    * Please place the music into a directory like `/artist/album` for ease of ncmpcpp use
+   * run `sudo chown -R mopidy:upl-user /music`
    * __PLEASE ONLY PUT LEGAL COPIES ONTO CHIPTUNES!__
    * If your addition did not register with `ncmpcpp`, try `chmod`ing it
 * Pianobar: Pandora internet radio music player
@@ -86,7 +86,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
   * A script has been made to automatically do this for you. While logged into chiptunes run fix-pianobar.
 
 ### Pepade
-#### Arcade Machine
+#### Arcade Machine (CURRENTLY NOT WORKING)
 * Runs Ubuntu with an emulator wrapper (RetroArch)
 * To add a game:
  * Download your favorite ROM and unzip in terminal using `unzip` <ROM>
