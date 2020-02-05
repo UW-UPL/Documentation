@@ -1,5 +1,5 @@
 # Documentation
-Documentation on running the UPL. Pull requests and the like are welcomed. 
+Documentation on running the UPL. Pull requests and the like are welcomed.
 
 
 Table of Contents:
@@ -26,13 +26,13 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 ### Eris
 #### The main server in the UPL
-* Home directories (NFS) 
+* Home directories (NFS)
   * Home directories provided to all other UPL machines via NFS
   * /home
 * Home directory backups as well
   * In /home_backup
 * AFS Connection
-  * Mounts a network drive of the CSL lab so we an read out valid CS users. 
+  * Mounts a network drive of the CSL lab so we an read out valid CS users.
 * Webcam
   * Webcam control server
     * Runs out of /webcam folder on eris
@@ -47,11 +47,11 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 #### Naming / IP responsibilities
 * bind9 (transitioning to docker-bind9)
   * DNS Service, basically allows us to use machine names instead of ip addresses
-  * Config must be changed via Docker image at `/srv/maintain/UPL-Config/docker/bind9`! 
+  * Config must be changed via Docker image at `/srv/maintain/UPL-Config/docker/bind9`!
 * docker-dhcp
   * DHCP service, hands certain machines fixed ip addresses
     * We own a nice Class C block of IPV4 IP addresses (`128.105.45.0/32`, to be exact)
-  * Run by `docker` automatically on boot! Configuration files are found at `/srv/maintain/UPL-Config/docker/dhcp` 
+  * Run by `docker` automatically on boot! Configuration files are found at `/srv/maintain/UPL-Config/docker/dhcp`
 * Important Notes pertaining to CSL integration
   * It is VERY important that our DNS server (Currently `siren`) always have the IP address `128.105.45.102`
   * This IP address is whitelisted by CSL's / DoIT's DNS servers (that run *.cs.wisc.edu)
@@ -93,7 +93,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
  * Move the unziped ROM to the `games` directory and in the correct directory (eg. N64)(you can use the visual file explorer to do this)
  * Open up the `RetroArch` and scan the directory where you put the unziped ROM
  * Go to the emulator for that ROM and it should now be in that list.
- * If not in list, go to `load content` in the main menu of `RetroArch` and load the ROM from its directory 
+ * If not in list, go to `load content` in the main menu of `RetroArch` and load the ROM from its directory
 
 ## General Configuration
 * Library google doc: https://docs.google.com/spreadsheets/d/1vvBGUE4_Y-BbBa2enLRiEGEVqUorZEdq1Rb1O8NG4NM/edit#gid=0
@@ -145,7 +145,7 @@ Lists UPL servers and the services on them that perform tasks essential to runni
 
 Similarly, run `sudo upl-admin`, and follow the prompts.
 
-Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord. 
+Now add them to the coords mailing list by going to https://lists.cs.wisc.edu/mailman/admin/upl-coords, signing in, clicking on Member Management, then Mass Subscription, then typing in the e-mail address of the new coord.
 
 ___Then have them meet with Bart, get an after-hour pass, and get an OD Key.___
 
@@ -154,7 +154,7 @@ ___Then have them meet with Bart, get an after-hour pass, and get an OD Key.___
 Run `sudo upl-admin`, and follow the prompts.
 
 ## Starting up servers
-Machines that need to be turned back on. They are listed **in order they should be started**: 
+Machines that need to be turned back on. They are listed **in order they should be started**:
 
 1. Siren (DHCP, so the computers know of each other and can talk to each other)
 
@@ -162,11 +162,11 @@ Machines that need to be turned back on. They are listed **in order they should 
 2. Eris (home folders)
 
   *Sometimes need to hit enter for GRUB or F1 to boot. Plug in Monitor and Keyboard to check as you boot up.
-    
+
 3. Spearow (web server for upl.cs.wisc.edu)
 
     *Also sometimes need to hit F1 upon boot.
-    
+
 4. Nethack (some game servers, and mumble server)
 
 5. Turn on all other machines
