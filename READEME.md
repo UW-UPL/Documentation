@@ -19,6 +19,7 @@
 - [ ] change manifests to newline delims
 - [ ] test knowledge: add a new machine
 - [ ] write man file
+- [ ] consolidate `readme`s
 
 ### Assorted Notes
 
