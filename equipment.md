@@ -1,7 +1,7 @@
 # Equipment Catalog
 Inventory of equipment currently in the UPL (not accurate yet).
 
-## General Invontory
+## General Inventory
 |Equipment Type|Number|*Number|
 |---|:---:|---|
 |Machines|10|13|
