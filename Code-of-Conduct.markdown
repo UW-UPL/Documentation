@@ -1,83 +1,74 @@
 # UPL Code of Conduct
-All visitors, members, and coordinators ("participants") of the UPL are required to agree with the following Code of Conduct. It is enforced by UPL coordinators ("coords"). We expect cooperation from everyone to ensure a safe environment.
+
+## Definitions
+- **Coordinators**: UPL members who manage the lab space and its activities.
+- **Visitors**: All other individuals who use the public lab space.
+- **Online Forum**: The UPL's online community where members and visitors interact.
+- **Participants**: All visitors, members, and coordinators of the UPL.
 
 ## General Conduct
-(inspired by [The Hack Code of Conduct](http://hackcodeofconduct.org/))
+Inspired by [The Hack Code of Conduct](http://hackcodeofconduct.org/)
+
+By participating in UPL activities, all participants implicitly agree to this Code of Conduct, enforced by UPL Coordinators. Cooperation is expected to ensure a safe environment.
 
 ### The Quick Version
-The UPL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, or computing experience (or lack of any of the aforementioned). We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate. Participants violating these rules may be sanctioned or expelled from the UPL at the discretion of the coords and associated administrators.
+The UPL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, or computing experience. Harassment in any form is not tolerated. Sexual language and imagery are inappropriate. Participants violating these rules may be sanctioned or expelled at the discretion of the coordinators and administrators.
 
 ### The Long Version
-Harassment includes offensive verbal comments related to:
-* Gender
-* Gender identity and expression
-* Age
-* Sexual orientation
-* Disability
-* Physical appearance
-* Body size
-* Race
-* Ethnicity
-* Nationality
-* Religion
+Harassment includes:
+- Offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion.
+- Sexual images in public spaces.
+- Deliberate intimidation, stalking, following.
+- Photography or recording without consent.
+- Sustained disturbance.
+- Inappropriate physical contact, unwelcome sexual attention.
 
-And also includes: 
-* Sexual images in public spaces
-* Deliberate intimidation
-* Stalking
-* Following
-* Photography or audio/video recording against reasonable consent
-* Sustained disturbance
-* Inappropriate physical contact
-* Unwelcome sexual attention.
+Participants asked to stop any harassing behavior must comply immediately.
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+If you are being harassed or notice someone else being harassed, contact a [Coordinator](https://www.upl.cs.wisc.edu/coords/) immediately.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a [coord](http://uw-upl.github.io/#/coords) immediately.
+Coordinators and administrators may take any action deemed appropriate, including warnings or expulsion.
 
-If a participant engages in harassing behavior, coords and associated administrators may take any action they deem appropriate, including warning the offender or expulsion from the lab.
-
-We expect participants to follow these rules at UPL-related events.
+These rules apply at UPL-related events and in the online forum.
 
 ## Account / Member Policies
-The UPL was established for students to learn about computers.
-While we support exploration of the system, it is important to be considerate of the other users of the system and the security needs of the UPL.
-The following rules represent guidelines on appropriate and inappropriate behavior.
-Violation of these rules may lead to your account being locked or deleted.
+The UPL was established for students to learn about computers. While exploration is supported, consider other users and the UPL's security needs. Violations may lead to account locking or deletion.
 
-1. You may not break into other accounts, break into other computers, use UPL resources to crack passwords, or otherwise use UPL resources to subvert any established security system.
-    You may not attempt to steal passwords, files, or other system or user information from these or other computers.
-2. You may not delete any other user's files, or disrupt the accessibility, usability, or performance of another user's account.
-    You may not harass or threaten any other user either here or at another site.
-3. You may not disrupt the accessibility, usability, or performance of any UPL resources.
-    Distasteful or offensive displays, printouts, or stored files are not permitted, and will be removed.
-4. Passing of copyrighted material to another ("pirating") is prohibited.
-    If you have an interest in testing system security, or you want to use UPL resources in a way that may disrupt performance, please contact a coordinator to make appropriate arrangements.
-5. Members may only be in the room when a UPL Coordinator is present. Should the last Coordinator present have to leave, the room must be closed, and all members currently in the room must leave.
+1. Do not break into other accounts or computers, crack passwords, or subvert security systems. Do not steal passwords, files, or information.
+2. Do not delete others' files, disrupt accessibility, usability, or performance. Do not harass or threaten other users.
+3. Do not disrupt the accessibility, usability, or performance of UPL resources. Distasteful or offensive displays, printouts, or files will be removed.
+4. Pirating copyrighted material is prohibited. Contact a coordinator to arrange appropriate use of UPL resources if needed.
+5. Members may only be in the lab when a Coordinator is present. If the last Coordinator leaves, the room must be closed and vacated.
 
-## Other prohibited activities
-  * Cryptocurrency (e.g. Bitcoin) mining
-  * Rainbow table construction
-  * Unauthorized distributed computing programs or systems
-  * Sleeping in the Lab
-  * Breaking state or federal law
-  * [Violating University Policy](http://pubs.wisc.edu/ug/index.htm)
+## Other Prohibited Activities
+- Cryptocurrency mining
+- Rainbow table construction
+- Unauthorized distributed computing programs
+- Sleeping in the Lab
+- Breaking state or federal law
+- [Violating University Policy](http://pubs.wisc.edu/ug/index.htm)
 
-## Additionally...
-  * Please don't leave your belongings in the lab
-    * We are not responsible for your belongings at any time
-    * Other people wish to use this space when you aren't present
-    * Table space is hard to come by
-  * **We observe all university policy and rules**
-    * If it isn't covered here, defer to University Policy. If it isn't covered by University Policy, just ask.
+## Additional Guidelines
+- Do not leave your belongings in the lab. We are not responsible for them.
+- Follow all university policies and rules. If in doubt, ask.
 
 ## Accountability Process
-In the event that a UPL Coordinator receives a report of a violation of the UPL Code of Conduct, the following process will be followed to address the concern:
+When a violation is reported:
 
-1. The on site UPL Coordinator will address the concerns with the member and keep a record of the response of the member.
-2. If the immediate response from the UPL Coordinator does not register a positive outcome, or if problems with the member persist, the matter will be referred for review to a panel of 3 or more Coordinators and the current UPL Faculty Advisor to determine an appropriate response. The notice of action taken by the panel will be delivered to the member in writing with a copy kept on record. Possible responses include and are not limited to:
-  1. Restitution
-  2. Limiting UPL access to specific times
-  3. Removal of access to the UPL for a specified period of time
-  4. Expulsion from UPL access
-3. The member can appeal the decision by notifying a member of the panel within 7 calendar days of the notice of the decision. The appeal review will be based on the record of the decision made by the panel. The appeal will be heard by the current UPL Advisor.
+- The on-site Coordinator addresses concerns with the member and records the response.
+- If unresolved, the issue is reviewed by a panel of 3+ Coordinators and the UPL Faculty Advisor. The member is notified in writing of the action taken. Possible responses include:
+  - Restitution
+  - Limiting access to specific times
+  - Removal of access for a specified period
+  - Expulsion
+- Members can appeal within 7 days of the decision. Appeals are based on the record and heard by the UPL Advisor.
+
+## Liability Disclaimer
+UPL is not liable for any actions, behavior, or incidents on its premises, during events, or in the online forum. By participating, members agree to hold UPL, its staff, and its affiliates harmless from any claims or damages. UPL reserves the right to amend the Code of Conduct and policies at any time. Members must stay informed of changes.
+
+## Intellectual Property Liability Release
+UPL is not responsible for the theft or misuse of intellectual property. Members should protect their intellectual property. By participating, members release UPL, its staff, and its affiliates from any claims or damages related to intellectual property theft or misuse.
+
+## Acknowledgment of Codes of Conduct
+By participating in UPL activities, members acknowledge that they are familiar with and agree to adhere to the [UW Madison Student Code of Conduct](https://conduct.students.wisc.edu/) and the [Wisconsin Administrative Code UWS](https://docs.legis.wisconsin.gov/code/admin_code/uws).
+
