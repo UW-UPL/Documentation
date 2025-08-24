@@ -72,3 +72,6 @@ UPL is not responsible for the theft or misuse of intellectual property. Members
 ## Acknowledgment of Codes of Conduct
 By participating in UPL activities, members acknowledge that they are familiar with and agree to adhere to the [UW Madison Student Code of Conduct](https://conduct.students.wisc.edu/) and the [Wisconsin Administrative Code UWS](https://docs.legis.wisconsin.gov/code/admin_code/uws).
 
+## Relationship to University Policies
+
+This Code of Conduct is intended to supplement—not replace or override—the University of Wisconsin-Madison’s official policies, including but not limited to its Non-Discrimination and Harassment policies. In cases of conflict or overlap, University policy always takes precedence. All participants remain subject to university-wide expectations and procedures for reporting and resolving discrimination, harassment, or misconduct.
